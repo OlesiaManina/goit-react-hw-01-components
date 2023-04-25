@@ -1,0 +1,32 @@
+.item {
+    width: 200px;
+    padding: 3px 0 3px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.avatar {
+    border-radius: 5%;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.online {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(81, 192, 81);
+}
+
+.offline {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(216, 43, 43);
+}
